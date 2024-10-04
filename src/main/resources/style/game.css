@@ -1,0 +1,482 @@
+.gamepane {
+    -fx-background-color: black;
+}
+/*Main Menu*/
+
+.menu-background {
+    -fx-background-image: url("../images/MainMenuBG.png");
+    -fx-background-size: cover;
+}
+
+.menu {
+    -fx-max-width: 200px;
+    -fx-max-height: 250px;
+}
+
+.menuItem {
+    -fx-text-fill: #D0D0D0;
+    -fx-padding: 15px 0px 0px 25px;
+    -fx-background-color: transparent;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 22px;
+}
+
+.menuItem:hover {
+    -fx-text-fill: white;
+}
+
+.menuItem:pressed {
+    -fx-text-fill: gray;
+}
+.menuTitle {
+    -fx-text-fill: #F77508;
+    -fx-padding: 0px 0px 20px 30px;
+    -fx-font-family: 'Trebuchet MS';
+    -fx-font-size: 40px;
+    -fx-font-weight: 100;
+}
+
+.menuTitle:hover {
+    -fx-text-fill: white;
+}
+
+.logo {
+    -fx-max-width: 130px;
+    -fx-max-height: 80px ;
+    -fx-background-image: url("../images/ECSGames.png");
+    -fx-background-size: 120px 70px;
+    -fx-background-repeat: no-repeat;
+}
+
+/*Challenge*/
+
+.challenge-background {
+    -fx-background-image: url("../images/MainGameBG.jpg");
+    -fx-background-size: cover;
+}
+
+.challengeTitle {
+    -fx-text-fill: #F77508;
+    -fx-padding: 20px 0px 0px 20px;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 50px;
+}
+
+.score {
+    -fx-text-fill: #F77508;
+    -fx-padding: 70px 200px 0px 0px;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 30px;
+}
+
+.board {
+    -fx-background-image: url("../images/BoardBG.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-translate-x: -100px;
+}
+
+.board Line {
+    -fx-stroke: #F77508;
+}
+
+.highscore {
+    -fx-text-fill: #F77508;
+    -fx-padding: 100px 105px 0px 0px;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 25px;
+    -fx-text-alignment: center;
+}
+
+.upcoming {
+    -fx-text-fill: #F77508;
+    -fx-padding: 165px 130px 0px 0px;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 18px;
+    -fx-text-alignment: center;
+}
+
+.currentPieceBoard {
+    -fx-background-image: url("../images/PieceboardBG.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-translate-x: -95px;
+    -fx-translate-y: 190px;
+}
+
+.currentPieceBoard Line {
+    -fx-stroke: orange;
+}
+
+.followingPieceBoard {
+    -fx-background-image: url("../images/FollowingBG.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-translate-x: -95px;
+    -fx-translate-y: 130px;
+}
+
+.followingPieceBoard Line{
+    -fx-stroke: orange;
+}
+
+.livesIco {
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+    -fx-background-image: url("../images/HealthIco.png");
+    -fx-background-size: 50px 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-translate-y: -30px;
+    -fx-translate-x: 40px;
+}
+
+.lives {
+    -fx-font-size: 50px;
+    -fx-text-fill: #AE7031;
+    -fx-translate-x: 110px;
+    -fx-translate-y: -40px;
+    -fx-font-family: 'LGGothic';
+}
+
+.livesLbl {
+    -fx-text-fill: #AE7031;
+    -fx-translate-x: 100px;
+    -fx-translate-y: -25px;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 20px;
+}
+
+.separator{
+    -fx-fill:#AE7031;
+    -fx-translate-y: -25px;
+    -fx-translate-x: 160px;
+}
+
+.levelIco {
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+    -fx-background-image: url("../images/LevelIco.png");
+    -fx-background-size: 50px 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-translate-y: -30px;
+    -fx-translate-x: 180px;
+}
+
+.level {
+    -fx-font-size: 50px;
+    -fx-text-fill: #AE7031;
+    -fx-translate-x: 260px;
+    -fx-translate-y: -40px;
+    -fx-font-family: 'LGGothic';
+}
+
+.levelLbl {
+    -fx-text-fill: #AE7031;
+    -fx-translate-x: 235px;
+    -fx-translate-y: -25px;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 20px;
+}
+
+.warning {
+    -fx-font-size: 40px;
+    -fx-text-fill: #AE3831;
+    -fx-translate-y: -40px;
+    -fx-font-family: 'LGGothic';
+}
+
+.multiplierIco {
+    -fx-max-width: 50px;
+    -fx-max-height: 50px;
+    -fx-background-image: url("../images/MultiplierIco.png");
+    -fx-background-size: 50px 50px;
+    -fx-background-repeat: no-repeat;
+    -fx-translate-y: -35px;
+}
+
+.multiplier {
+    -fx-font-size: 50px;
+    -fx-text-fill: #AE7031;
+    -fx-translate-x: -60px;
+    -fx-translate-y: -40px;
+    -fx-font-family: 'LGGothic';
+}
+
+.multiplierLbl {
+    -fx-text-fill: #AE7031;
+    -fx-translate-x: -50px;
+    -fx-translate-y: -25px;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 15px;
+}
+
+/*Scores*/
+
+.score-background {
+    -fx-background-image: url("../images/MainGameBG.jpg");
+    -fx-background-size: cover;
+}
+
+.scoreTitle {
+    -fx-text-fill: #F77508;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 120px;
+    -fx-translate-y: 70px;
+}
+
+.scoreSubtitle {
+    -fx-text-fill: #F77508;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 50px;
+    -fx-translate-y: 200px;
+}
+
+.localScores {
+    -fx-translate-x: 200px;
+    -fx-translate-y: 100px;
+}
+
+.remoteScores {
+    -fx-translate-x: 450px;
+    -fx-translate-y: 100px;
+}
+
+.individualScore {
+    -fx-text-fill: #F77508;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 30px;
+    -fx-translate-y: 200px;
+}
+
+.localScoresLbl {
+    -fx-text-fill: #F77508;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 30px;
+    -fx-translate-y: -30px;
+    -fx-translate-x: -150px;
+}
+
+.remoteScoresLbl {
+    -fx-text-fill: #F77508;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 30px;
+    -fx-translate-y: -30px;
+    -fx-translate-x: 130px;
+}
+
+/*Instructions*/
+
+.instructions-background {
+    -fx-background-image: url("../images/MainMenuBG.png");
+    -fx-background-size: cover;
+}
+
+.instructionsTitle {
+    -fx-text-fill: #F77508;
+    -fx-padding: 20px 0px 0px 20px;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 50px;
+}
+
+.piecesPane {
+    -fx-translate-x: 30px;
+    -fx-translate-y: 100px;
+}
+
+.piecesTitle {
+    -fx-text-fill: #F77508;
+    -fx-translate-x: 150px;
+    -fx-translate-y: 70px;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 25px;
+}
+
+.instructionsImage {
+    -fx-max-width: 440px;
+    -fx-max-height: 470px ;
+    -fx-background-image: url("../images/instructions.png");
+    -fx-background-size: cover;
+    -fx-translate-y: 33px;
+    -fx-translate-x: -5px;
+}
+
+/*Lobby*/
+
+.lobbyTitle {
+    -fx-text-fill: #F77508;
+    -fx-padding: 20px 0px 0px 20px;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 50px;
+}
+
+.channelList {
+    -fx-max-width: 400px;
+    -fx-max-height: 450px;
+    -fx-translate-y: 20px;
+    -fx-translate-x: 15px;
+    -fx-background-image: url("../images/ServerList.png");
+    -fx-background-size: cover;
+}
+
+.createChannel {
+    -fx-max-width: 50px;
+    -fx-max-height: 2px;
+    -fx-text-fill: #D0D0D0;
+    -fx-translate-x: -60px;
+    -fx-translate-y: 200px;
+    -fx-background-color: transparent;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 22px;
+}
+
+.joinChannel {
+    -fx-max-width: 40px;
+    -fx-max-height: 2px;
+    -fx-text-fill: #D0D0D0;
+    -fx-translate-x: -10px;
+    -fx-translate-y: 200px;
+    -fx-background-color: transparent;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 22px;
+}
+
+.channel {
+    -fx-text-fill: #D0D0D0;
+    -fx-background-color: transparent;
+    -fx-translate-x: 5px;
+    -fx-translate-y: -30px;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 20px;
+}
+
+.channel:hover {
+    -fx-background-color: #F77508;
+}
+
+.channelPane {
+    -fx-max-width: 400px;
+    -fx-max-height: 450px;
+    -fx-translate-y: 20px;
+    -fx-translate-x: 0px;
+    -fx-background-image: url("../images/Server.png");
+    -fx-background-size: cover;
+}
+
+.channelTitle {
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+    -fx-translate-x: 15px;
+    -fx-translate-y: 5px;
+    -fx-font-family: 'LGGothic';
+}
+
+.userList {
+    -fx-background-color: transparent;
+    -fx-max-width: 100px;
+    -fx-max-height: 300px;
+    -fx-translate-x: 0px;
+    -fx-translate-y: -15px;
+    -fx-font-size: 14px;
+}
+
+.userList Label {
+    -fx-font-family: 'LGGothic';
+    -fx-text-fill: white;
+}
+
+.messageBar{
+    -fx-alignment: bottom-center;
+}
+
+.messageField {
+    -fx-max-height: 20px;
+    -fx-max-width: 800px;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.messageButton {
+    -fx-max-width: 200px;
+    -fx-max-height: 20px;
+    -fx-background-color: transparent;
+    -fx-translate-x: 100px;
+}
+
+.messages {
+    -fx-max-height: 300px;
+    -fx-max-width: 250px;
+    -fx-font-size: 14px;
+    -fx-font-family: "LGGothic";
+    -fx-translate-y: 30px;
+    -fx-translate-x: 10px;
+}
+
+.messages Text {
+    -fx-fill: white;
+    -fx-font-family: "LGGothic";
+}
+
+.start {
+    -fx-max-width: 80px;
+    -fx-max-height: 10px;
+    -fx-translate-x: -20px;
+    -fx-translate-y: -30px;
+    -fx-background-image: url("../images/StartGame.png");
+    -fx-background-size: cover;
+}
+
+.leave {
+    -fx-max-width: 20px;
+    -fx-max-height: 20px;
+    -fx-translate-x: 0px;
+    -fx-translate-y: 0px;
+    -fx-background-color: transparent;
+    -fx-font-family: 'LGGothic';
+}
+
+.leaderboard {
+    -fx-max-height: 150px;
+    -fx-max-width: 150px;
+    -fx-translate-x: -95px;
+    -fx-translate-y: 100px;
+    -fx-text-alignment: center;
+}
+
+.gameBox {
+    -fx-padding: 10;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-border-color: white;
+    -fx-border-width: 1;
+}
+
+TextField {
+    -fx-border-color: orange;
+    -fx-border-width: 1px;
+    -fx-background-color: rgba(0,0,0,0.5);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: grey;
+}
+
+
+.channelList{
+    -fx-padding: 100px 0px 0px 0px ;
+}
+
+.gameMessageBar{
+    -fx-max-width: 300px;
+    -fx-max-height: 100px;
+    -fx-translate-x: -25px;
+    -fx-translate-y: 40px;
+    -fx-background-color: transparent;
+}
+
+.leaderboardScore {
+    -fx-text-fill: #F77508;
+    -fx-font-family: 'LGGothic';
+    -fx-font-size: 20px;
+}
+
+.message{
+    -fx-fill: white;
+    -fx-font-family: "LGGothic";
+}

@@ -1,0 +1,9 @@
+testtext:1250
+sd:1150
+:1130
+testonline:1050
+tes:1050
+test11:650
+jar:505
+test12:250
+testLow:50

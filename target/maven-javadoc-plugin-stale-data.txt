@@ -1,0 +1,59 @@
+@options
+@packages
+@argfile
+--class-path
+'C:/Users/nedev/.m2/repository/org/openjfx/javafx-controls/21-ea+5/javafx-controls-21-ea+5.jar;C:/Users/nedev/.m2/repository/org/openjfx/javafx-graphics/21-ea+5/javafx-graphics-21-ea+5.jar;C:/Users/nedev/.m2/repository/org/openjfx/javafx-base/21-ea+5/javafx-base-21-ea+5.jar;C:/Users/nedev/.m2/repository/org/openjfx/javafx-fxml/21-ea+5/javafx-fxml-21-ea+5.jar;C:/Users/nedev/.m2/repository/org/openjfx/javafx-media/21-ea+5/javafx-media-21-ea+5.jar;C:/Users/nedev/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar'
+--module-path
+'C:/Users/nedev/.m2/repository/org/openjfx/javafx-controls/21-ea+5/javafx-controls-21-ea+5-win.jar;C:/Users/nedev/.m2/repository/org/openjfx/javafx-fxml/21-ea+5/javafx-fxml-21-ea+5-win.jar;C:/Users/nedev/.m2/repository/org/openjfx/javafx-media/21-ea+5/javafx-media-21-ea+5-win.jar;C:/Users/nedev/.m2/repository/org/openjfx/javafx-base/21-ea+5/javafx-base-21-ea+5-win.jar;C:/Users/nedev/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar;C:/Users/nedev/.m2/repository/org/openjfx/javafx-graphics/21-ea+5/javafx-graphics-21-ea+5-win.jar;C:/Users/nedev/Documents/SemesterTwo/Programming 2/comp1206_cw/coursework/target/classes;C:/Users/nedev/.m2/repository/com/neovisionaries/nv-websocket-client/2.14/nv-websocket-client-2.14.jar'
+--patch-module
+uk.ac.soton.comp1206='C:/Users/nedev/Documents/SemesterTwo/Programming 2/comp1206_cw/coursework/src/main/java'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+--module-source-path
+'C:/Users/nedev/Documents/SemesterTwo/Programming 2/comp1206_cw/coursework/target/site/apidocs/src'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/nedev/Documents/SemesterTwo/Programming 2/comp1206_cw/coursework/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'tetrecs 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'tetrecs 1.0-SNAPSHOT API'
+uk.ac.soton.comp1206
+uk.ac.soton.comp1206.component
+uk.ac.soton.comp1206.event
+uk.ac.soton.comp1206.game
+uk.ac.soton.comp1206.network
+uk.ac.soton.comp1206.scene
+uk.ac.soton.comp1206.ui
+'C:/Users/nedev/Documents/SemesterTwo/Programming 2/comp1206_cw/coursework/src/main/java/module-info.java'
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\allclasses-index.html = 1682531729779
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\allpackages-index.html = 1682531729783
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\constant-values.html = 1682531729570
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\copy.svg = 1682531729843
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\element-list = 1682531729478
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\help-doc.html = 1682531729834
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\index-all.html = 1682531729822
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\index.html = 1682531729828
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\jquery-ui.overrides.css = 1682531729870
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\member-search-index.js = 1682531729790
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\module-search-index.js = 1682531729784
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\overview-tree.html = 1682531729750
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\package-search-index.js = 1682531729785
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\script.js = 1682531729841
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\search-page.js = 1682531729847
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\search.html = 1682531729825
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\search.js = 1682531729846
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\stylesheet.css = 1682531729838
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\tag-search-index.js = 1682531729791
+C:\Users\nedev\Documents\SemesterTwo\Programming 2\comp1206_cw\coursework\target\site\apidocs\type-search-index.js = 1682531729788
